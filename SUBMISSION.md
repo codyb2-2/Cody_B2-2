@@ -8,9 +8,9 @@
 
 ## Member PRs
 - 1기_김준태 (rlawnsxo8709)
-  - Issue: [#1](https://github.com/codyb2-2/Cody_B2-2/issues/1), [#5](https://github.com/codyb2-2/Cody_B2-2/issues/5), [#7](https://github.com/codyb2-2/Cody_B2-2/issues/7), [#17](https://github.com/codyb2-2/Cody_B2-2/issues/17), [#19](https://github.com/codyb2-2/Cody_B2-2/issues/19), [#21](https://github.com/codyb2-2/Cody_B2-2/issues/21)
-  - PR (병합): [#6](https://github.com/codyb2-2/Cody_B2-2/pull/6) 스택 노트, [#8](https://github.com/codyb2-2/Cody_B2-2/pull/8) 큐 노트, [#18](https://github.com/codyb2-2/Cody_B2-2/pull/18) 팀명, [#22](https://github.com/codyb2-2/Cody_B2-2/pull/22) SUBMISSION·git log
-  - PR (그 외): [#2](https://github.com/codyb2-2/Cody_B2-2/pull/2) hello 서버(과제 방향 변경으로 병합 없이 닫힘), [#20](https://github.com/codyb2-2/Cody_B2-2/pull/20) 팀원 표기
+  - Issue: [#1](https://github.com/codyb2-2/Cody_B2-2/issues/1), [#5](https://github.com/codyb2-2/Cody_B2-2/issues/5), [#7](https://github.com/codyb2-2/Cody_B2-2/issues/7), [#17](https://github.com/codyb2-2/Cody_B2-2/issues/17), [#19](https://github.com/codyb2-2/Cody_B2-2/issues/19), [#21](https://github.com/codyb2-2/Cody_B2-2/issues/21), [#23](https://github.com/codyb2-2/Cody_B2-2/issues/23)
+  - PR (병합): [#6](https://github.com/codyb2-2/Cody_B2-2/pull/6) 스택 노트, [#8](https://github.com/codyb2-2/Cody_B2-2/pull/8) 큐 노트, [#18](https://github.com/codyb2-2/Cody_B2-2/pull/18) 팀명, [#20](https://github.com/codyb2-2/Cody_B2-2/pull/20) 팀원 표기, [#22](https://github.com/codyb2-2/Cody_B2-2/pull/22) SUBMISSION·git log
+  - PR (그 외): [#2](https://github.com/codyb2-2/Cody_B2-2/pull/2) hello 서버(과제 방향 변경으로 병합 없이 닫힘), [#24](https://github.com/codyb2-2/Cody_B2-2/pull/24) 팀명 복구·충돌 기록 #2
   - 리뷰 작성: [#3 승인 + 파일 코멘트](https://github.com/codyb2-2/Cody_B2-2/pull/3#pullrequestreview-5568625418), [#10 코멘트 + 줄 코멘트](https://github.com/codyb2-2/Cody_B2-2/pull/10#pullrequestreview-5569363246), [#11 코멘트 + 줄 코멘트 4개](https://github.com/codyb2-2/Cody_B2-2/pull/11#pullrequestreview-5569086405)
   - 리뷰 반영: [#2 ghwo6 제안(HOST·PORT 환경 변수) 반영 답글](https://github.com/codyb2-2/Cody_B2-2/pull/2#issuecomment-6263684140), 커밋 [`2c092e3`](https://github.com/codyb2-2/Cody_B2-2/commit/2c092e3ad025f0356e72cd86135753c60ad7acbe)
   - 학습 노트: [스택](docs/stack.md), [큐](docs/queue.md)
