@@ -14,6 +14,7 @@
   - `feature/loader1017-readme`
   - `feature/loader1017-remove-team`
   - `feature/ghwo6-linux-docs`
+  - `feature/ghwo6-python-docs`
 
 ## 커밋 메시지 컨벤션
 - 기본 형식: `<Type>: <Subject>` (예: `feat: 스택 자료구조 학습 노트 추가`)
