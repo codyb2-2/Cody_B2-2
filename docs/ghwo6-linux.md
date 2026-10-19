@@ -1,4 +1,5 @@
-# B04-01 간단 학습 노트
+# 리눅스 서버 관제 자동화 학습 노트
+
 
 1. **목표**: 서버가 1분마다 스스로 상태를 점검하고 로그로 남기게 만든다 (장애 원인 분석은 "감"이 아니라 로그로).
 2. **SSH 보안**: `/etc/ssh/sshd_config`에서 `Port 20022`, `PermitRootLogin no` → `systemctl restart ssh`로 적용.

@@ -1,16 +1,19 @@
 # Troubleshooting Log
 
-## 시나리오: amend
+## 시나리오: git commit --amend
 ### 참여자
 - ghwo6 (내가 공부한 노트를 예제에 포함하였다.)
 ### 상황
--
+- 커밋 메시지를 적었지만 enter를 잘못 입력해서 잘못된 커밋 메시지가 올라가 git commit --amend를 써서 커밋메시지를 수정하였다.
+
+(\docs\CONTRIBUTING.md)
 ### 시도한 명령/절차
--
+- git commit --amend
 ### 결과
--
+- 이전에 잘못 입력된 커밋 메시지를 수정하였다.
 ### 왜 이 방법을 선택했는가(Why)
--
+- 커밋메시지를 수정하는데 가장 편한 방법이라고 생각했다.
+
 
 ## 시나리오: reset --soft
 ### 참여자
