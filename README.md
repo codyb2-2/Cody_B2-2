@@ -13,6 +13,7 @@
 - 선택:
 - 목차/목록:
   - [스택(Stack)](docs/stack.md) - rlawnsxo8709
+  - [큐(Queue)](docs/queue.md) - rlawnsxo8709
 
 ## 문서
 - [CONTRIBUTING](docs/CONTRIBUTING.md)
