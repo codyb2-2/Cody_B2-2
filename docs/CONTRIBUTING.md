@@ -1,15 +1,32 @@
 # Contributing Guide
 
 ## 브랜치 전략(GitHub Flow)
-- main / feature/* 규칙
-- 우리 팀이 GitHub Flow를 선택한 이유 (3줄 이내):
+- `main`: 항상 최신화되어 있으며 바로 배포 및 활용 가능한 안정적인 상태를 유지합니다.
+- `feature/*`: 기능 개발, 문서 작성, 버그 수정 등 개별 작업 단위마다 생성하는 독립 브랜치입니다.
+- 우리 팀이 GitHub Flow를 선택한 이유 :
+  1. `main` 브랜치를 안전하게 보호하면서 개별 작업을 독립된 브랜치로 깔끔하게 격리할 수 있습니다.
+  2. 워크플로우가 간결하여 빠른 PR 생성 및 코드 리뷰 중심의 협업을 연습하기에 가장 적합합니다.
+  3. 작업 단위별 관리로 충돌 원인을 쉽게 파악하고 트러블슈팅 이력을 효율적으로 기록할 수 있습니다.
 
 ## 브랜치 네이밍 규칙
-- 예: feature/<name>-<topic>
+- 기본 형식: `feature/<이름>-<작업주제>`
+- 예시:
+  - `feature/loader1017-readme`
+  - `feature/loader1017-remove-team`
+  - `feature/ghwo6-linux-docs`
+  - `feature/ghwo6-python-docs`
 
 ## 커밋 메시지 컨벤션
-- 예: feat: ..., fix: ..., docs: ..., refactor: ...
-- 금지 예: update, fix(대상 불명), wip, temp, final 등
+- 기본 형식: `<Type>: <Subject>` (예: `feat: 스택 자료구조 학습 노트 추가`)
+- 타입(Type) 정의:
+  - `feat`: 새로운 기능 또는 문서 콘텐츠 추가
+  - `fix`: 버그 또는 오류 수정
+  - `docs`: 문서 작성, 수정 및 오타 보완
+  - `refactor`: 구조 개선, 파일 이동 및 불필요 파일 삭제
+  - `chore`: 설정 변경, 가상환경/패키지 관리 등 기타 작업
+- **금지 커밋 메시지** (변경 대상이나 이유를 유추할 수 없는 경우):
+  - 단발성 단어: `update`, `fix`, `wip`, `temp`, `final` 등
+  - 구체적 대상 없는 메시지: `bug fix`, `edit file`, `수정함` 등
 
 ## PR 작성 규칙
 - 본문 필수 항목: 연결 이슈(Closes #번호), What, Why, How
