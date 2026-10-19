@@ -12,6 +12,7 @@
 ## 결과물 (A/B/C 중 택 1)
 - 선택:
 - 목차/목록:
+  - [큐(Queue)](docs/queue.md) - rlawnsxo8709
 
 ## 문서
 - [CONTRIBUTING](docs/CONTRIBUTING.md)
