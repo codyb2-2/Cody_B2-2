@@ -43,15 +43,27 @@ git status -s
 
 ## 시나리오: revert
 ### 참여자
--
+- loader1017
 ### 상황
--
+- 작업 브랜치(`feature/loader1017-docs-update`)에서 실수로 생성한 임시 커밋(`temp: 잘못된 텍스트 추가`)이 원격 저장소(`origin`)에 이미 푸시(`push`)됨.
 ### 시도한 명령/절차
--
+
+```bash
+# 1. 원격에 푸시된 최근 커밋 해시 확인
+git log --oneline -n 3
+
+# 2. 해당 커밋의 변경 사항을 되돌리는 상쇄 커밋 생성
+git revert 9e6113c --no-edit
+
+# 3. revert 커밋을 원격 저장소에 푸시
+git push origin feature/loader1017-docs-update
+```
 ### 결과
--
+- README.md에 실수로 추가되었던 임시 텍스트가 정상적으로 원복됨.
+기존 원격 히스토리를 삭제하지 않고, Revert "temp: 잘못된 텍스트 추가"라는 상쇄 커밋이 PR 타임라인에 안전하게 기록됨.
 ### 왜 이 방법을 선택했는가(Why)
--
+- 이미 원격 저장소에 푸시되어 팀원들과 공유된 커밋은 git reset 후 강제 푸시(push -f)를 사용할 경우 다른 팀원의 로컬 작업 이력과 충돌을 일으키거나 작업물을 덮어쓸 위험이 있음.
+따라서 이전 커밋 이력을 그대로 유지하면서 변경 사항만 안전하게 상쇄하는 git revert를 선택함.
 
 ## 시나리오: stash / stash pop
 ### 참여자
