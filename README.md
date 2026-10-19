@@ -19,4 +19,3 @@
 - [충돌 해결 기록](docs/conflict-resolution.md)
 - [트러블슈팅 기록](docs/troubleshooting-log.md)
 - [제출물 인덱스](SUBMISSION.md)
-revert 테스트용 텍스트
